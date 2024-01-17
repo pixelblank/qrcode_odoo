@@ -1,0 +1,13 @@
+<odoo>
+    <record id="view_qrcode_module_list" model="ir.ui.view">
+        <field name="name">qrcode_module.list</field>
+        <field name="model">qrcode_module.qrcode_module</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="nom"/>
+                <field name="description"/>
+                <field name="image_champ" widget='image' options='{"size": [90, 90]}'/>
+            </tree>
+        </field>
+    </record>
+</odoo>

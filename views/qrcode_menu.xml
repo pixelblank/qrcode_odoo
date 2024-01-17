@@ -1,0 +1,11 @@
+<odoo>
+    <menuitem id="qrcode_menu_root"
+              name="QrCode"
+              sequence="10"/>
+
+    <menuitem id="qrcode_menu_item"
+              name="Générateur QrCode"
+              parent="qrcode_menu_root"
+              action="qrcode_module_action"
+              sequence="10"/>
+</odoo>

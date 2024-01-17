@@ -1,0 +1,7 @@
+<odoo>
+    <record id="qrcode_module_action" model="ir.actions.act_window">
+        <field name="name">Générer QrCode</field>
+        <field name="res_model">qrcode_module.qrcode_module</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+</odoo>
